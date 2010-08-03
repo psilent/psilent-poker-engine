@@ -13,7 +13,7 @@
 //   limitations under the License.
 
 
-package net.psilent.PsilentJacks;
+package net.psilent.psilentjacks;
 
 import org.jdesktop.application.Action;
 

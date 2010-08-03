@@ -12,7 +12,7 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-package net.psilent.PsilentJacks;
+package net.psilent.psilentjacks;
 
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;

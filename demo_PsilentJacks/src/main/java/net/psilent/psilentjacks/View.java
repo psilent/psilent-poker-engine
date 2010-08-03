@@ -12,7 +12,7 @@
 //   See the License for the specific language governing permissions and
 //   limitations under the License.
 
-package net.psilent.PsilentJacks;
+package net.psilent.psilentjacks;
 
 import java.awt.Color;
 import java.util.EventObject;
@@ -167,7 +167,7 @@ public class View extends FrameView implements ActionListener, Application.ExitL
         progressBar = new javax.swing.JProgressBar();
         jButton1 = new javax.swing.JButton();
 
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(net.psilent.PsilentJacks.App.class).getContext().getResourceMap(View.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(net.psilent.psilentjacks.App.class).getContext().getResourceMap(View.class);
         mainPanel.setBackground(resourceMap.getColor("mainPanel.background")); // NOI18N
         mainPanel.setForeground(resourceMap.getColor("mainPanel.foreground")); // NOI18N
         mainPanel.setFocusable(false);
@@ -280,7 +280,7 @@ public class View extends FrameView implements ActionListener, Application.ExitL
         fileMenu.setText(resourceMap.getString("fileMenu.text")); // NOI18N
         fileMenu.setName("fileMenu"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(net.psilent.PsilentJacks.App.class).getContext().getActionMap(View.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(net.psilent.psilentjacks.App.class).getContext().getActionMap(View.class, this);
         exitMenuItem.setAction(actionMap.get("quit")); // NOI18N
         exitMenuItem.setName("exitMenuItem"); // NOI18N
         fileMenu.add(exitMenuItem);
