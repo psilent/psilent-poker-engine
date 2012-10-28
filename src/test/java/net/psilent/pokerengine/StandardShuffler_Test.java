@@ -25,6 +25,13 @@ public class StandardShuffler_Test
     {
     }
 
+    @Test (expected=NullPointerException.class)
+    public void shuffle_should_throw_when_passed_null_deck()
+    {
+        Shuffler shuffler = new StandardShuffler();
+        shuffler.shuffle(null);
+    }
+    
     @Test
     public void shuffle_should_change_the_order_of_the_deck()
     {
