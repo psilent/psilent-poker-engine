@@ -5,7 +5,7 @@
     <groupId>net.psilent</groupId>
     <artifactId>PsilentJacks</artifactId>
     <packaging>jar</packaging>
-    <version>1.18</version>
+    <version>1.19</version>
     <name>PsilentJacks</name>
     <url>http://maven.apache.org</url>
 

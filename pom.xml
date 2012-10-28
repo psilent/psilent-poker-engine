@@ -4,7 +4,7 @@
     <groupId>net.psilent</groupId>
     <artifactId>PsilentPokerEngine</artifactId>
     <packaging>jar</packaging>
-    <version>1.1</version>
+    <version>1.2</version>
     <name>PsilentPokerEngine</name>
     <url>http://maven.apache.org</url>
     
